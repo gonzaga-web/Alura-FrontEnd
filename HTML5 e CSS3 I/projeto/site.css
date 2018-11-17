@@ -15,21 +15,54 @@ main h1{
 
 p{
 	text-align: justify;
+	text-decoration: none;
 }
 
 blockquote{
 	background-color: #D9E5E3;
+	margin: 0;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
 }
 
 aside{
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	text-align: center;
 }
 nav a{
 color:#F2FFFC;
+text-decoration: none;
 }
 
 footer{
 	background-color: black;
 	color: #F2FFFC;
+}
+
+main a{
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+main h1 {
+	padding: 25px;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+}
+aside ul  {
+     list-style-type:none;
+
 }
